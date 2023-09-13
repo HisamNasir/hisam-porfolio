@@ -86,9 +86,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="grid grid-cols-3 gap-4 px-10">
+            <div className=" md:grid md:grid-cols-3 space-x-8 gap-8 px-10">
               <Link href='/about'>
-                <div className="flex flex-col rounded-xl items-center justify-center p-4 dark:bg-amber-50 h-28 bg-amber-800">
+                <div className="flex flex-col  hover:scale-110 transition duration-500 rounded-xl items-center justify-center p-4 dark:bg-amber-50 h-28 bg-black">
                   <p className="text-2xl text-amber-400 dark:text-amber-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link href='/projects'>
-                <div className="flex flex-col rounded-xl items-center justify-center  dark:bg-amber-50 h-28 bg-amber-800">
+                <div className="flex flex-col  hover:scale-110 transition duration-500 rounded-xl items-center justify-center  dark:bg-amber-50 h-28 bg-black">
                   <p className="text-2xl text-amber-400 dark:text-amber-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link href='/contact'>
-                <div className="flex flex-col rounded-xl items-center justify-center  dark:bg-amber-50 h-28 bg-amber-800">
+                <div className="flex flex-col rounded-xl  hover:scale-110 transition duration-500 items-center justify-center  dark:bg-amber-50 h-28 bg-black">
                   <p className="text-2xl text-amber-400 dark:text-amber-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
