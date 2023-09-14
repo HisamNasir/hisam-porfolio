@@ -42,7 +42,7 @@ const Carousel = () => {
 
     <div className='relative w-full h-full max-w-[1920px] bg-black'>
       <div className='absolute z-10 font-black text-3xl md:text-9xl text-white w-full h-full flex justify-center items-center'>
-        <h1 className=' text-center left-52'>My<br/><span className='text-amber-500'>Renders</span></h1>
+        <h1 className=' text-center left-52'>My<br/><span className='text-amber-500'>Projects</span></h1>
       </div>
       <div className="relative w-full h-full overflow-hidden opacity-50">
         {/* Carousel indicators */}

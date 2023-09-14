@@ -156,7 +156,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </div>
-        <div className=" hidden md:fixed "></div>
+
 
 
       </body>

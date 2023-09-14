@@ -18,8 +18,8 @@ const Footer = () => {
     
     <React.Fragment>
         <footer >
-        <div className="hidden sm:block fixed bottom-4 right-4 z-80">
-          <button  onClick={handleDownload} className="bg-amber-500 hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full shadow-lg">
+        <div className=" fixed bottom-28 sm:bottom-4 right-4 z-80">
+          <button  onClick={handleDownload} className="bg-amber-500 border border-black hover:bg-amber-600 text-white font-bold py-2 px-4 rounded-full shadow-lg">
             <div className="p-2 flex space-x-2 items-center text-center">
               <div className="w-6 h-6">
               <svg
